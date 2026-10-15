@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriculas</title>
+    <link rel="stylesheet" href="css/matriculas.css">
+</head>
+
+<body class="dashboard">
+    <header class="dashboard-header">
+        <h1>Sistema de Gestión de Cursos</h1>
+        <nav class="dashboard-nav">
+            <ul>
+                <li><a href="Dashboard.html">Inicio</a></li>
+                <li><a href="Estudiantes.html">Estudiantes</a></li>
+                <li><a href="Cursos.html">Cursos</a></li>
+                <li><a href="Matriculas.html">Matriculas</a></li>
+            </ul>
+        </nav>
+        <footer class="dashboard-footer-sidebar">
+            <p>Jose Rodriguez</p>
+            <p>jorodriguez@cesde.net</p>
+        </footer>
+    </header>
+
+    <main class="dashboard-main">
+        <header class="dashboard-topbar">
+            <h2>Sistema de Gestión de Cursos</h2>
+        </header>
+
+        <section class="dashboard-content">
+            <header class="section-header">
+                <div>
+                    <h1>Matriculas</h1>
+                    <p>Gestión de matriculas registradas</p>
+                </div>
+                <button class="btn-nuevo">Nueva Matricula</button>
+            </header>
+
+            <div class="filtros">
+                <input type="text" placeholder="Buscar estudiante o curso..." class="buscador">
+                <select class="filtro-estado">
+                    <option value="todos">Todos los estados</option>
+                    <option value="activa">Activa</option>
+                    <option value="completada">Completada</option>
+                    <option value="cancelada">Cancelada</option>
+                </select>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Estudiante</th>
+                        <th scope="col">Curso</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Juan Ramirez</th>
+                        <td>Logica</td>
+                        <td>2026-08-31</td>
+                        <td>ACTIVA</td>
+                        <td>
+                            <a href="#" class="editar">Editar</a>
+                            <a href="#" class="eliminar">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Maribel Arias</th>
+                        <td>Introduccion</td>
+                        <td>2026-08-31</td>
+                        <td>COMPLETADA</td>
+                        <td>
+                            <a href="#" class="editar">Editar</a>
+                            <a href="#" class="eliminar">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Isabella Rodriguez</th>
+                        <td>Base de Datos</td>
+                        <td>2026-08-13</td>
+                        <td>ACTIVA</td>
+                        <td>
+                            <a href="#" class="editar">Editar</a>
+                            <a href="#" class="eliminar">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Alexander Rodriguez</th>
+                        <td>Introduccion</td>
+                        <td>2026-08-01</td>
+                        <td>COMPLETADA</td>
+                        <td>
+                            <a href="#" class="editar">Editar</a>
+                            <a href="#" class="eliminar">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer class="dashboard-footer-main">
+            <p>© 2026 Sistema de Gestión de Cursos</p>
+        </footer>
+    </main>
+</body>
+
+</html>

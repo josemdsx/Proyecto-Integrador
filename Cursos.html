@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="css/cursos.css">
+</head>
+
+<body class="dashboard">
+    <header class="dashboard-header">
+        <h1>Sistema de Gestión de Cursos</h1>
+        <nav class="dashboard-nav">
+            <ul>
+                <li><a href="Dashboard.html">Inicio</a></li>
+                <li><a href="Estudiantes.html">Estudiantes</a></li>
+                <li><a href="Cursos.html">Cursos</a></li>
+                <li><a href="Matriculas.html">Matriculas</a></li>
+            </ul>
+        </nav>
+        <footer class="dashboard-footer-sidebar">
+            <p>Jose Rodriguez</p>
+            <p>jorodriguez@cesde.net</p>
+        </footer>
+    </header>
+
+    <main class="dashboard-main">
+        <header class="dashboard-topbar">
+            <h2>Sistema de Gestión de Cursos</h2>
+        </header>
+
+        <section class="dashboard-content">
+            <header class="section-header">
+                <div>
+                    <h1>Cursos</h1>
+                    <p>Gestión de cursos registrados</p>
+                </div>
+                <button class="btn-nuevo">Nuevo Curso</button>
+            </header>
+
+            <input type="text" placeholder="Buscar curso..." class="buscador">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Codigo</th>
+                        <th scope="col">Curso</th>
+                        <th scope="col">Capacidad</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">REACT01</th>
+                        <td>React Desde Cero</td>
+                        <td>30</td>
+                        <td>
+                            <a href="#" class="editar">Editar</a>
+                            <a href="#" class="eliminar">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SPRING01</th>
+                        <td>Spring Boot</td>
+                        <td>26</td>
+                        <td>
+                            <a href="#" class="editar">Editar</a>
+                            <a href="#" class="eliminar">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer class="dashboard-footer-main">
+            <p>© 2026 Sistema de Gestión de Cursos</p>
+        </footer>
+    </main>
+</body>
+
+</html>
