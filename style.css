@@ -795,6 +795,11 @@ body {
     box-sizing: border-box;
 }
 
+.buscador-matriculas:focus {
+    outline: 2px solid var(--color-2);
+    outline-offset: 2px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
