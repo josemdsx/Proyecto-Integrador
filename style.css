@@ -800,6 +800,11 @@ body {
     outline-offset: 2px;
 }
 
+.buscador-matriculas:placeholder-shown {
+    background-color: #f4f1f7;
+    border-color: var(--color-1);
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
