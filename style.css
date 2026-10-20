@@ -180,6 +180,11 @@ tbody tr:last-child th {
     background-color: var(--color-2);
 }
 
+.tabla-estudiantes tbody tr:hover td,
+.tabla-estudiantes tbody tr:hover th {
+    background-color: var(--color-2);
+}
+
 .titulo-cursos::first-letter {
     color: var(--color-2);
     font-size: 1.4em;
