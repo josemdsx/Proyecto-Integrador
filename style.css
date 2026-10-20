@@ -170,6 +170,11 @@ tbody tr:last-child th {
     border-top: 1px solid var(--color-2);
 }
 
+.tabla-cursos tbody tr:hover td,
+.tabla-cursos tbody tr:hover th {
+    background-color: var(--color-2);
+}
+
 /* dashboard.css */
    :root {
             --color-1: #423059;
