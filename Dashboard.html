@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .dashboard-paneles {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .dashboard-paneles img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+        }
+    </style>
 </head>
 
 <body class="dashboard">
@@ -41,28 +56,21 @@
             <div class="dashboard-cards">
                 <article class="card">
                     <h2 class="tarjeta1">Estudiantes</h2>
-                    <p>2</p>
-                </article>
-                <article class="card">
-                    <h2 class="tarjeta2">Cursos</h2>
                     <p>3</p>
                 </article>
                 <article class="card">
+                    <h2 class="tarjeta2">Cursos</h2>
+                    <p>2</p>
+                </article>
+                <article class="card">
                     <h2 class="tarjeta3">Matriculas</h2>
-                    <p>5</p>
+                    <p>4</p>
                 </article>
-                <article class="card">
-                    <h2 class="tarjeta4">Activas</h2>
-                    <p>2</p>
-                </article>
-                <article class="card">
-                    <h2 class="tarjeta5">Completadas</h2>
-                    <p>2</p>
-                </article>
-                <article class="card">
-                    <h2 class="tarjeta6">Canceladas</h2>
-                    <p>2</p>
-                </article>
+            </div>
+
+            <div class="dashboard-paneles">
+                <img src="img/matriculas-por-estado.png" alt="Matrículas por estado">
+                <img src="img/cursos-populares.png" alt="Cursos populares">
             </div>
         </section>
 
